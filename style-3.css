@@ -1,0 +1,972 @@
+body{
+	width:100%;
+	background-color:white;
+	font-family: Times New Roman;
+	margin:0;
+}
+
+/*presentation*/
+.titre1{
+	text-align:center;
+}
+
+.titre{
+	width:750px;
+	height:220px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+
+
+
+/*fil presentation*/
+
+.fil .categorie .diy{
+	display:none;
+}
+	
+.fil .categorie:hover .diy{
+	display:block;
+	background-color:#F5F3EF;
+	position : absolute;
+}
+
+.fil{
+	background-color:#838C69;
+	font-size:20px;
+	width:100%;
+	height:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.fil .categorie{
+	padding-left:40px;
+	padding-right:40px;
+	float:left;
+}
+
+.fil .categorie a{
+	text-decoration:none;
+	color:white;
+	font-style : italic;
+}
+
+
+.fil .diy a{
+	color : black;
+}
+
+.fil .categorie .diy{
+	border:solid 1px black;
+	padding-right:50px;
+	padding-left:10px;
+}
+
+.accueil{
+	background-color:#F5F3EF;
+	padding-top:20px;
+	padding-left:10px;
+}
+
+
+/*Valider inscription*/
+
+.inscrip-valider{
+	font-size:25px; 
+	padding-right:20px;
+	font-style:italic;
+}
+
+
+/*page d'accueil*/
+.accueilPresentation{
+	border : solid 2px #838C69 ;
+	border-radius : 20px ;
+	padding : 20px ;
+	width : 600px ;
+	margin : auto ;
+	font-size : 120% ;
+	font-style : italic ;
+	line-height: 150%;
+}
+.accueilPresentation:first-letter{
+	font-size:240%;
+	font-style:italic;
+	color :  #838C69 ;
+}
+
+.accueil1{
+	padding-left : 20px;
+	padding-right: 20px;
+	background-color:#F5F3EF;
+}
+
+.theme-categorie{
+	width:100%;
+}
+
+.accueil1 .categorie-1 {
+ 	display:grid;
+ 	width:100%;
+ }
+
+.couture{
+	grid-column: 1;
+ 	margin:20px;
+}
+
+.decoration{
+	grid-column: 2;
+ 	margin:20px;
+}
+
+.cuisine{
+	grid-column: 3;
+ 	margin:20px;
+}
+
+.accueil1 .categorie-2 {
+	display:grid;
+	width:68%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.cosmetique{
+	grid-column: 1/2;
+ 	margin:20px;
+}
+
+.produits-menagers{
+	grid-column: 2/2;
+ 	margin:20px;
+}
+
+
+/*page d'accueil des categories*/
+.image_categorie{
+	width:50%;
+	padding-top: 20px;
+}
+
+
+.liste-tuto-lien{
+	text-decoration: none;
+	color:black;
+	font-style:italic;
+}
+
+.liste-tuto-l{
+	font-size:20px;
+	font-weight: bold;
+}
+
+.liste-tuto-l::first-letter{
+	font-size: 30px;
+}
+
+.liste-tuto{
+	margin-top:40px;
+	margin-bottom:40px;
+	margin-right: auto;
+	margin-left: auto;
+	width:40%;
+	text-align: center;
+	border: solid 1px black;
+	border-radius: 70px;
+}
+
+.Theme{
+	padding : 5px ; 
+	padding-left : 0px ;
+}
+
+
+/*page de diy*/
+#sous-titre{
+	display: grid;
+}
+
+.gauche{
+	grid-column:1; 
+	text-align:center;
+	margin:20px;
+}
+
+.présentation{
+	width:auto;
+	height:600px;
+}
+
+.droite{
+	grid-column:2; 
+	margin:20px;
+	margin-top: 0px;
+}
+
+.titre-h1{
+	text-align:center;
+	padding-top: 10px;
+}
+
+.titre-gd-h1{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	border-bottom: black 1px solid;
+	width:50%;
+	padding-top:20px;
+	margin-bottom:20px;
+}
+
+.titre-gd-h2{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	border-bottom: black 1px solid;
+	width:50%;
+	padding-top:20px;
+	background-color: #F5F3EF;
+}
+
+.couleur-beige{
+	background-color: #F5F3EF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h1{
+	text-transform:uppercase; 
+	font-size:30px;
+	text-align:center;
+}
+/*FormulaireTuto2*/
+.titre-date{
+	font-size:30px;
+	text-align:center;
+	font-size:15px;
+	font-style:italic;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.premier{
+	font-size:20px;
+}
+
+.liste{
+	font-size:25px;
+	color : black;
+}
+
+ul{
+	font-size:20px;
+}
+
+.titre-materiel{
+	border: solid white 1px;
+}
+
+
+.titre-materiel:first-letter{
+	font-size:200%;
+	font-style:italic;
+}
+
+.couture{
+	text-align:center;
+}
+
+.imgcategorie{
+	padding-top:30px;
+	width:75%;
+	padding-bottom: 20px;
+}
+
+.note-tuto{
+	font-size:20px;
+}
+
+
+#couleur-1-titre-etape{
+	z-index:1;
+	margin-top:30px;
+	width:100%;
+	height:100px;
+	background-color:#F5F3EF;
+	margin-top:100px;
+}
+
+.image{
+	width:100%;
+	height:200px;
+	margin:0px;
+	padding:0px;
+}
+
+#etape{
+	display:grid;
+	background-color:#F5F3EF;
+	margin:0px;
+	width:100%;
+}
+
+#etape .num1{
+	grid-row:1;
+	grid-column:1;
+	margin:30px;
+	padding:20px;
+	background-color:white;
+	text-align:center;
+	border:solid 1px black;
+}
+
+#etape .num2{
+	grid-row:1;
+	grid-column:2;
+	margin:30px;
+	padding:20px;
+	background-color:white;
+	text-align:center;
+	border:solid 1px black;
+}
+
+#etape .num3{
+	grid-row:1;
+	grid-column:3;
+	margin:30px;
+	padding:20px;
+	background-color:white;
+	text-align:center;
+	border:solid 1px black;
+}
+
+#etape .num4{
+	grid-row:2;
+	grid-column:1;
+	margin:30px;
+	padding:20px;
+	background-color:white;
+	text-align:center;
+	border:solid 1px black;
+}
+
+#etape .num5{
+	grid-row:2;
+	grid-column:2;
+	margin:30px;
+	padding:20px;
+	background-color:white;
+	text-align:center;
+	border:solid 1px black;
+}
+
+#etape .num6{
+	grid-row:2;
+	grid-column:3;
+	margin:30px;
+	padding:20px;
+	background-color:white;
+	text-align:center;
+	border:solid 1px black;
+}
+
+#etape .num7{
+	grid-row:3;
+	grid-column:1;
+	margin:30px;
+	padding:20px;
+	background-color:white;
+	text-align:center;
+	border:solid 1px black;
+}
+
+#etape .num8{
+	grid-row:3;
+	grid-column:2;
+	margin:30px;
+	padding:20px;
+	background-color:white;
+	text-align:center;
+	border:solid 1px black;
+}
+
+#etape .num9{
+	grid-row:3;
+	grid-column:3;
+	margin:30px;
+	padding:20px;
+	background-color:white;
+	text-align:center;
+	border:solid 1px black;
+}
+
+#etape .num10{
+	grid-row:4;
+	grid-column:1;
+	margin:30px;
+	padding:20px;
+	background-color:white;
+	text-align:center;
+	border:solid 1px black;
+}
+
+#etape .num11{
+	grid-row:4;
+	grid-column:2;
+	margin:30px;
+	padding:20px;
+	background-color:white;
+	text-align:center;
+	border:solid 1px black;
+}
+
+#etape .num12{
+	grid-row:4;
+	grid-column:3;
+	margin:30px;
+	padding:20px;
+	background-color:white;
+	text-align:center;
+	border:solid 1px black;
+}
+
+.photo-descrip{
+	width:350px;
+	height:auto;
+}
+
+.titre-etape{
+	font-size:20px;
+	text-decoration:underline;
+}
+
+.descrip{
+	font-size:17px;
+	font-style:italic;
+}
+
+.themeFormTuto{
+	margin-left : 125px ;
+	margin-top : 60px ; 
+	float : left ;
+}
+
+/*espace commentaires*/
+.couleur-2-titre-etape{
+	margin-top:50px;
+	margin-bottom:50px;
+	background-color:white;
+	display:grid;
+}
+
+.commentaire-g{
+	grid-column:1;
+}
+
+.commentaire-d{
+	grid-column:2;
+}
+
+.comm-1{
+	padding-left:30px;
+	font-size:30px;
+	text-transform:uppercase; 
+	font-weight:bold; 
+	font-style:italic;
+}
+
+
+.comm-2{
+	padding-left:100px;
+	padding-top:20px;
+	font-size:30px;
+	text-transform:uppercase; 
+	font-style:italic;
+	text-decoration: underline;	
+}
+
+.titre-comm{
+	padding-left:20px;
+	font-size:20px;
+	padding-top:15px;
+	font-style:italic;
+}
+
+
+.commentaire{
+	padding-left:20px;
+}
+
+.afficher-commentaire{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.texte-comm{
+	height : 150px ;
+	 width : 500px ;
+}
+
+.envoi-comm{
+	padding-left:20px;
+}
+
+.envoi-comm-style{
+	background-color:#838C69;
+	font-size:15px;
+	padding:10px;
+	color:white;
+	font-style:italic;
+	text-align:center;
+	border:solid 1px white;
+}
+
+.image-comm{
+	width:500px;
+	height:500px;
+}
+
+.liste_commentaire{
+	background-color: white;
+	margin:40px;
+	margin-left: auto;
+	margin-right: auto;
+	width:90%;
+	text-align:center;
+	border: solid 1px black;
+}
+
+.list_com_personne{
+	padding:15px;
+	height:20px;
+	width:15%;
+	border: solid 1px black;
+}
+
+.list_com_tuto{
+	height:20px;
+	width:20%;
+	border: solid 1px black;
+}
+
+.list_com_note{
+	height:20px;
+	width:10%;
+	border: solid 1px black;
+}
+
+.list_com_contenu{
+	height:20px;
+	width:40%;
+	border: solid 1px black;
+}
+
+.list_com_date{
+	height:20px;
+	width:15%;
+	border: solid 1px black;
+}
+
+
+
+/*page crédits*/
+.credit{
+	background-color:#F5F3EF;
+}
+
+.tableau{
+	padding:50px;
+	padding-left:350px;
+}
+
+.cellule{
+	width:300px;
+}
+
+.cellule-nom{
+	width:400px;
+	height:200px;
+	font-size:40px;
+	text-align:center;
+	font-style:italic;
+}
+
+.groupe{
+	font-size:20px;
+	text-align:center;
+	font-style:italic;
+}
+
+.tableau fieldset {
+	border:solid 1px black;
+	border-radius: 20px;
+}
+
+
+
+/*bas page*/
+ 
+#couleur-3-bas-page{
+	width:100%;
+	background-color:#838C69;
+}
+
+#bas-page{
+	display:grid;
+	margin-bottom:10px;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.colonne-1{
+	grid-column:1;
+	padding:15px;
+	border-right: solid 1px white;
+}
+
+.colonne-2{
+	grid-column:2;
+	padding:15px;
+	border-right: solid 1px white;
+}
+
+.colonne-3{
+	grid-column:3;
+	padding:15px;
+}
+
+.colonne-1 a{
+	color : white;
+	font-size:20px;
+	padding:10px;
+}
+.colonne-2 a{
+	color : white;
+	font-size:20px;
+	padding:10px;
+}
+.colonne-3 a{
+	color : white;
+	font-size:20px;
+	padding:10px;
+}
+
+.colonne-1 a:hover{
+	color : black;
+	font-size:20px;
+	padding:10px;
+}
+.colonne-2 a:hover{
+	color : black;
+	font-size:20px;
+	padding:10px;
+}
+.colonne-3 a:hover{
+	color : black;
+	font-size:20px;
+	padding:10px;
+}
+
+ /*logo fin de page*/
+
+.titre-fin{
+	width:450px;
+	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.fin{
+	color:#838C69;
+	font-size:12px;
+	text-align:center;
+}
+
+/* Formulaire tuto */
+.texteEtape{
+	width:300px;
+	height : 100px ;
+}
+
+.boutonenvoyer {
+	text-align: center;
+}
+
+/*Page profil*/
+.profil{
+	margin : 10px ;
+	margin-bottom : 100px ;
+}
+
+.tableau-profil{
+	display: grid;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	padding-top: 20px;
+}
+
+.infoperso{
+	border : solid 1px black ;
+	width : 300px ;
+	height: 280px;
+	background-color :#F5F3EF ;
+	border-radius : 20px ;
+	grid-column: 1;
+	grid-row: 1;
+	margin-right: auto;
+	margin-left: auto;
+}
+.operations{
+	border : solid 1px black ;
+	width : 300px ;
+	background-color :#F5F3EF ;
+	border-radius : 20px ;
+	grid-column: 2;
+	grid-row: 1;
+	margin-right: auto;
+	margin-left: auto;
+}
+.deconnexion{
+	padding : 10px ;
+}
+.BoutonSupp{
+	padding : 10px ;
+	border-radius : 15px ;
+	border : solid 1px black ;
+	background-color :#F5D5D5 ;
+	font-style : italic ;
+}
+
+
+.img-calendrier{
+	margin-left: 100px;
+	width:550px;
+	border:groove #838C69 ;
+}
+
+.lien-deconnex{
+	text-decoration: none;
+	color:black;
+	border-radius: 15px;
+	border:solid black 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #F5D5D5;
+	font-style: italic;
+}
+
+.comm-3{
+	text-decoration: none;
+	color:black;
+}
+
+.ope-espace{
+	padding-bottom: 10px;
+}
+
+.ope-titre{
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.tableau-semainier{
+	padding-left: 100px;
+	text-align: center;
+}
+
+.img-theme-semainier{
+	width:500px;
+	padding:20px;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+.texte-semainier{
+	border: #838C69 solid 2px;
+	background-color: white;
+	width:500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	line-height: 200%;
+	font-style: italic;
+	padding-left:20px;
+	padding-right: 20px;
+	width:70%;
+}
+
+/*page premium.php*/
+.versionPayante2 {
+	text-align:center;
+}
+
+.versionPayante2 fieldset {
+	margin-left: auto;
+	margin-right: auto;
+	width :500px;
+}
+
+.BoutonInsc2{	
+	padding : 6px ;
+	padding-left : 8px ;
+	padding-right : 8px ;
+	border-radius : 15px ;
+	border : solid 1px black ;
+	font-style : italic ;
+	margin-bottom:5px;
+}
+
+/* Page connexion/index */
+
+.tableau-index{
+	display: grid;
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.connexion{
+	border : solid 1px black ;
+	width : 300px ;
+	padding-left : 30px ;
+	padding-right : 30px ;
+	padding-bottom : 30px ;
+	background-color :#F5F3EF ;
+	border-radius : 20px ;
+	grid-column : 1 ;
+	grid-row: 1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.acceuil{
+	padding-bottom : 250px ;
+}
+.motconnexion{
+	text-align : center ;
+}
+.espace{
+	margin : 7px ;
+}
+.BoutonConn{
+	padding : 7px ;
+	border-radius : 15px ;
+	border : solid 1px black ;
+	font-style : italic ;
+	margin-left : 200px ;
+}
+.inscriptionC{
+	border : solid 1px black ;
+	padding-left : 25px ;
+	padding-right : 25px ;
+	padding-bottom : 20px ;
+	background-color :#F5F3EF ;
+	border-radius : 20px ;
+	grid-column : 2 ;
+	grid-row: 1;
+	width : 300px ;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+/*Page récupération mot de passe */
+.recupMDP{
+	background : #F5F3EF ;
+	padding : 20px ;
+	padding-top : 0px ;
+}
+.formulaireRecupMDP{
+	border : solid 1px black ;
+	width : 600px ;
+	padding-left : 25px ;
+	padding-right : 25px ;
+	background-color :#F5F3EF ;
+	border-radius : 20px ;
+	margin : auto ;
+}
+.BoutonRecup{
+	padding : 6px ;
+	border-radius : 15px ;
+	border : solid 1px black ;
+	font-style : italic ;
+	margin-left : 370px ;
+	margin-top : 10px ;
+}
+
+/*Page inscription*/
+.versionPayante fieldset{
+	width : 500px ;
+	border-radius : 10px ;
+}
+.BoutonInsc{
+	padding : 6px ;
+	padding-left : 8px ;
+	padding-right : 8px ;
+	border-radius : 15px ;
+	border : solid 1px black ;
+	font-style : italic ;
+	margin-left : 550px ;
+	margin-top : 10px ;
+}
+.encad2{
+	margin : 5px ;
+}
+.champ{
+	border : solid 1px black ;
+	border-radius : 5px ;
+	margin-top : 5px ;
+
+}
+.inscriptionI{
+	border : solid 1px black ; 
+	width : 650px ; 
+	padding-left : 25px ;
+	padding-right : 25px ;
+	padding-bottom : 20px ;
+	background-color :#F5F3EF ;
+	border-radius : 20px ;
+	margin : auto ;
+}
+.PageInscription{
+	margin-bottom : 10px ;
+}
+.ConnexionInscription{
+	text-align : center ;
+}
+.champ2{
+	border : solid 1px black ;
+	border-radius : 5px ;
+}
+.encad1{
+	margin-top : 2px ;
+}
+
+
+/*Commun à index et inscription*/
+.blanc{
+	background-color: white ;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.lien-ins{
+	text-decoration: none;
+	color:black;
+	font-style:italic;
+	font-weight: bold;
+	border: solid 1px black;
+	border-radius: 15px;
+	padding:8px;
+	background-color: white;
+}
+

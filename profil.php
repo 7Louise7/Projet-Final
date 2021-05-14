@@ -163,7 +163,7 @@ $image_5 = $tuto['chemin'];
          <p class="comm-1">Tips pour devenir plus écolos </p>
          <p class="comm-2">Un calendrier : </p>
          <p><?php echo "<img class='img-calendrier' src='image/$image'	alt='calendrier-prenium'/></a></p>" ?></p>
-         <p class="comm-2">Thème de semainier à imprimer : </p>
+         <p class="comm-2">Thèmes de semainier à imprimer : </p>
          <div class="tableau-semainier">
             <table>
                <tr>
@@ -179,7 +179,7 @@ $image_5 = $tuto['chemin'];
                   <td>
                      <div class="texte-semainier">
                         <p>Petite info pour toi :</p>
-                        <p>Pour enregistrer la photo puis l'impimer clique-droit sur celle-ci puis enregistre la sur ton ordinateur !</p>
+                        <p>Pour enregistrer la photo puis l'impimer, clique-droit sur celle-ci puis enregistre-la sur ton ordinateur !</p>
                      </div>
                   </td>
                </tr>

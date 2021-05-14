@@ -2,7 +2,7 @@
 
 Bienvenue sur notre projet
 
-Nom et prénom des personnes du groupe : 
+Noms et prénoms des personnes du groupe : 
   - Amélie Tessier / Groupe 1B L1 Mathématiques
   - Charlotte Laurent / Groupe 2A L1 Informatique
   - Louise Gaudron / Groupe 1B L1 Mathématiques
